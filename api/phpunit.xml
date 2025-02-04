@@ -32,5 +32,9 @@
     <include>
       <directory suffix=".php">./app</directory>
     </include>
+    <exclude>
+      <directory suffix=".php">./app/Console/</directory>
+      <directory suffix=".php">./app/Traits/</directory>
+    </exclude>
   </source>
 </phpunit>
